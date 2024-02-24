@@ -1,0 +1,142 @@
+body{
+    background-color: #FAF7F0;
+}
+
+h4{
+    background-color: rgb(231, 193, 145);
+    width: 95%;
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-weight: 700;
+    
+}
+
+figcaption{
+    position: relative;
+    top: -6px;
+    left: 30px;
+    font-size: 22px;
+    color: rgb(183, 167, 148);
+    padding-top: 10px;
+}
+
+
+.Randul2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -200px;
+}
+
+
+.Tazza-scris1{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 300px;
+    margin-left: 530px;
+   
+    font-size: 22px;
+    text-decoration: none;
+    color: red;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    
+}
+
+
+
+.imagine1{
+    background-image: url(teacora-rooibos-cOWE5cctcZI-unsplash.jpg);
+    width: 800px;
+    height: 1000px;
+    margin-top: -230px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30px;
+}
+
+.elo{
+    display: flex;
+    
+}
+
+img{
+    background-image: url(teacora-rooibos-cOWE5cctcZI-unsplash.jpg);
+    width: 650px;
+    height: 600px;
+    margin-top: -230px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 35px;
+}
+
+
+
+
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 134px;
+    cursor: pointer;
+}
+
+.bani{
+    padding-left: 50px;
+    padding-right: -900px;
+    width: 600px;
+    
+}
+
+.mijloc{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+a:hover{
+    border-bottom: 3px solid black;
+}
+
+   nav a{
+    display: flex;
+    height: 30px;
+   }
+
+   .Tazza-scris1:hover{
+    border: 0px;
+   }
+
+
+
+
+   @media all and(max-width:500px){
+    body{
+        color: blue;
+    }
+   }
+
+   
